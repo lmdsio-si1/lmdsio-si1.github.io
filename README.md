@@ -1,2 +1,3 @@
-# lmdsio-si1.github.io
-Portail Web du module SI1
+# BTS SIO - Module SI1
+
+Portail Web rassemblant les ressources en ligne du [lycée La Martinière Duchère](http://lmdsio.fr) de Lyon pour le [BTS Services Informatiques aux Organisations](http://www.reseaucerta.org/BTS%20SIO).
