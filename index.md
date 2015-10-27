@@ -9,9 +9,7 @@ Ressources pédagogiques du [lycée La Martinière Duchère](http://lmdsio.fr) d
 
 Enseignants : Pascal Chemin, [Baptiste Pesquet](http://bpesquet.fr).
 
-[Présentation du module SI1](presentation)
-
-[Progression suivie pour la classe de B1SIO1](https://trello.com/b/2FycsKlx/progression-b1sio1) ([vue calendaire](https://trello.com/b/2FycsKlx/progression-b1sio1/calendar/)).
+[Présentation du module SI1](presentation) - [Progression suivie pour la classe de B1SIO1](https://trello.com/b/2FycsKlx/progression-b1sio1) ([vue calendaire](https://trello.com/b/2FycsKlx/progression-b1sio1/calendar/))
 
 ## Cours
 
