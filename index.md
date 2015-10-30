@@ -22,3 +22,4 @@ Enseignants : Pascal Chemin, [Baptiste Pesquet](http://bpesquet.fr).
 
 * [Composants matériels de l'ordinateur](activities/composants-materiels)
 * [Consignes pour l'exposé](activities/consignes-expose)
+* [Les logiciels libres](activities/logiciels-libres)
