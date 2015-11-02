@@ -31,7 +31,7 @@ Répondez ensuite aux questions ci-dessous :
 
 Lisez [cet article de l'APRIL](../misc/april_logiciel_libre.pdf), puis répondez aux questions ci-dessous :
 
-* Quelles sont les libertés associées à un logicle libre ?
+* Quelles sont les libertés associées à un logiciel libre ?
 * Logiciel libre, freeware, shareware : quelles différences ?
 * Trouvez un exemple de logiciel freeware et un exemple de logiciel shareware.
 * Quels sont les intérêts des logiciels libres ?
