@@ -17,6 +17,7 @@ Enseignants : Pascal Chemin, [Baptiste Pesquet](http://bpesquet.fr).
 * [Composants matériels de l'ordinateur](http://prof.bpesquet.fr/cours/composants-materiels-ordinateur/)
 * [Apprenez à monter votre ordinateur](https://openclassrooms.com/courses/apprenez-a-monter-votre-ordinateur)
 * [Le système d'exploitation](lessons/systeme-exploitation)
+* [Introduction à Linux](lessons/linux)
 
 ## Activités
 
