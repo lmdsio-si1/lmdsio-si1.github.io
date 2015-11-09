@@ -100,7 +100,7 @@ Windows 2000 | ... | ... | ...
 
 ## Question 10
 
-Reproduisez le tableau suivant, puis complétez-le.
+Reproduisez le tableau suivant, puis complétez-le à l'aide du [cours sur la correction d'erreurs](http://prof.bpesquet.fr/cours/composants-materiels-ordinateur/#toc_67).
 
 ![](../assets/composants-materiels/memoire-ecc.png)
 {:.centered}
