@@ -12,6 +12,8 @@ Soit l'arborescence définie ci-dessous.
 
 * Quel est le chemin absolu pour référencer le fichier `track1.mp3` ?
 
+* Si le répertoire courant est `/home/bob`, quel est le chemin relatif vers `track1.mp3` ?
+
 * Si le répertoire courant est `/home/bob/images`, quel est le chemin relatif vers `track1.mp3` ?
 
 * Si le répertoire courant est `/home/bob/tmp/tests`, quel est le chemin relatif vers `track1.mp3` ?
