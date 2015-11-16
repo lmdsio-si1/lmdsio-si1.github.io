@@ -123,7 +123,7 @@ Quel est maintenant le contenu du fichier **Fichier1** ? Pourquoi ?
 
 Quel est maintenant le contenu du fichier **Fichier2** ? Pourquoi ?
 
-* Supprimez les fichiers **Fichier1** et **Fichier** du Bureau Windows. Videz la Corbeille.
+* Supprimez les fichiers **Fichier1** et **Fichier2** du Bureau Windows. Videz la Corbeille.
 
 ### Conclusion
 
