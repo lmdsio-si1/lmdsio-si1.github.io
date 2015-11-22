@@ -166,6 +166,8 @@ Quel est le type du point de restauration que vous avez créé ?
 
 * Lancez l'installation du logiciel [Paint.NET](http://www.getpaint.net). Suivez la procédure d'installation en acceptant la licence et en choisissant les options par défaut. Terminez sans lancer Paint.NET.
 
+   * L'installation de **paint.net** nécessite la présence du framework .NET sur la machine, et lance son téléchargement sinon. Si le téléchargement prend trop de temps, annulez l'installation de **paint.net** et installez Mozilla Thunderbird à la place.
+
 * Dans le menu **Démarrer**, trouvez et lancez **paint.net** pour vérifier son installation. Fermez ensuite le programme.
 
 ![](../assets/sauvegarde-restauration-w7/Capt16.png)
