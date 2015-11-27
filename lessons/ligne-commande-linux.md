@@ -47,6 +47,16 @@ Le chemin absolu du répertoire personnel peut s'écrire de manière abrégée a
 
 Pour revenir dans le répertoire personnel, on peut taper la commande `cd` sans rien d'autre.
 
+### Options des commandes
+
+Presque toutes les commandes Linux acceptent des **options** qui modifient leur comportement. Voici par exemple les options de la commande `ls` :
+
+* `ls -a` affiche également les fichiers cachés, qui comment par un `.` sous Linux.
+* `ls -l` affiche des informations supplémentaires, comme la date et la taille des fichiers.
+* `ls -t` trie les fichiers par ordre de dernière modification.
+
+Les options d'une commande peuvent être combinés. Exemple : `ls -alt`.
+
 ## Modification
 
 ### Commandes à connaître
@@ -55,4 +65,12 @@ Pour revenir dans le répertoire personnel, on peut taper la commande `cd` sans 
 
 * `touch` crée un nouveau fichier (vide) dans le répertoire courant.
 
-...
+* `cp` (*copy*) copie des fichiers ou des répertoires.
+
+* `mv` (*move*) déplace ou renomme des fichiers ou des répertoires.
+
+* `rm` (*remove*) supprime des fichiers. `rm -r` supprime des répertoires.
+
+### Caractère générique
+
+Le caractère générique `*` (*wildcard*) permet de remplacer une partie d'un nom de fichier ou de répertoire. On l'utilise pour appliquer une commande à plusieurs éléments.
