@@ -57,7 +57,7 @@ Presque toutes les commandes Linux acceptent des **options** qui modifient leur 
 
 Les options d'une commande peuvent être combinés. Exemple : `ls -alt`.
 
-## Modification
+## Modifier le système de fichiers
 
 ### Commandes à connaître
 
