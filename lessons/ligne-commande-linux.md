@@ -51,7 +51,7 @@ Pour revenir dans le répertoire personnel, on peut taper la commande `cd` sans 
 
 Presque toutes les commandes Linux acceptent des **options** qui modifient leur comportement. Voici par exemple les options de la commande `ls` :
 
-* `ls -a` affiche également les fichiers cachés, qui comment par un `.` sous Linux.
+* `ls -a` affiche également les fichiers cachés, qui commencent par un `.` sous Linux.
 * `ls -l` affiche des informations supplémentaires, comme la date et la taille des fichiers.
 * `ls -t` trie les fichiers par ordre de dernière modification.
 
