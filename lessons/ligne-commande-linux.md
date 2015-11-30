@@ -20,7 +20,7 @@ Les fichiers et répertoires d'un ordinateur forment une arborescence appelée *
 
 * `ls` (*list*) affiche le contenu du répertoire courant.
 
-* `cd` (*change directory*) permet de se déplacer dans le système de fichiers en changeant de répertoire courant.
+* `cd` (*change directory*) permet de se déplacer dans le système de fichiers en changeant de répertoire courant. Exemples : `cd monrep` fait de `monrep` le répertoire courant.
 
     * Pour remonter d'un niveau dans l'arborescence, on utilise la commande `cd ..`
     * Pour revenir à la racine de l'arborescence, on utilise la commande `cd /`
@@ -61,13 +61,13 @@ Les options d'une commande peuvent être combinés. Exemple : `ls -alt`.
 
 ### Commandes à connaître
 
-* `mkdir` (*make directory*) crée un nouveau répertoire dans le répertoire courant.
+* `mkdir` (*make directory*) crée un nouveau répertoire dans le répertoire courant. Exemple : `mkdir monrep` crée le répertoire `monrep`.
 
-* `touch` crée un nouveau fichier (vide) dans le répertoire courant.
+* `touch` crée un nouveau fichier (vide) dans le répertoire courant. Exemple : `touch fic1.txt` crée un fichier vide `fic1.txt`.
 
-* `cp` (*copy*) copie des fichiers ou des répertoires.
+* `cp` (*copy*) copie des fichiers ou des répertoires. Exemple : `cp fic1.txt monrep` copie le fichier `fic1.txt` dans le répertoire `monrep`. 
 
-* `mv` (*move*) déplace ou renomme des fichiers ou des répertoires.
+* `mv` (*move*) déplace ou renomme des fichiers ou des répertoires. Exemple : `cp fic1.txt monrep` déplace le fichier `fic1.txt` dans le répertoire `monrep`. 
 
 * `rm` (*remove*) supprime des fichiers. `rm -r` supprime des répertoires.
 
