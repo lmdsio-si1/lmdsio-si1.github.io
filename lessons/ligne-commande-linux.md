@@ -20,10 +20,11 @@ Les fichiers et répertoires d'un ordinateur forment une arborescence appelée *
 
 * `ls` (*list*) affiche le contenu du répertoire courant.
 
-* `cd` (*change directory*) permet de se déplacer dans le système de fichiers en changeant de répertoire courant. Exemples : `cd monrep` fait de `monrep` le répertoire courant.
+* `cd` (*change directory*) permet de se déplacer dans le système de fichiers en changeant de répertoire courant. 
 
-    * Pour remonter d'un niveau dans l'arborescence, on utilise la commande `cd ..`
-    * Pour revenir à la racine de l'arborescence, on utilise la commande `cd /`
+    * `cd monrep` fait du répertoire `monrep` le répertoire courant.
+    * `cd ..` permet de remonter d'un niveau dans l'arborescence.
+    * `cd /` permet de revenir à la racine de l'arborescence.
 
 ### Chemin absolu, chemin relatif
 
@@ -33,11 +34,11 @@ On distingue deux types de chemins :
 
 * Un chemin **absolu** identifie une ressource en commençant à la racine de l'arborescence, avec le caractère `/`. Un chemin absolu ne dépend pas du répertoire courant et est donc valide partout.
 
-    * Exemples : `/home/baptiste/hello.txt`, `/etc/apache/httpd.conf` sont des chemins absolus.
+    * `/home/baptiste/hello.txt` et `/etc/apache/httpd.conf` sont des exemples de chemins absolus.
 
 * Un chemin **relatif** identifie une ressource à partir du répertoire courant. Il dépend donc du répertoire courant et n'est pas valide partout.
 
-    * Exemples : `../marc/adresses.txt`, `documents/cours/si1.pdf` sont des chemins relatifs.
+    * `../marc/adresses.txt` et `documents/cours/si1.pdf` sont des exemples de chemins relatifs.
 
 ### Répertoire personnel
 
@@ -61,16 +62,32 @@ Les options d'une commande peuvent être combinés. Exemple : `ls -alt`.
 
 ### Commandes à connaître
 
-* `mkdir` (*make directory*) crée un nouveau répertoire dans le répertoire courant. Exemple : `mkdir monrep` crée le répertoire `monrep`.
+* `mkdir` (*make directory*) crée un nouveau répertoire dans le répertoire courant. 
 
-* `touch` crée un nouveau fichier (vide) dans le répertoire courant. Exemple : `touch fic1.txt` crée un fichier vide `fic1.txt`.
+    * `mkdir monrep` crée le répertoire `monrep` dans le répertoire courant.
 
-* `cp` (*copy*) copie des fichiers ou des répertoires. Exemple : `cp fic1.txt monrep` copie le fichier `fic1.txt` dans le répertoire `monrep`. 
+* `touch` crée un nouveau fichier (vide) dans le répertoire courant. 
 
-* `mv` (*move*) déplace ou renomme des fichiers ou des répertoires. Exemple : `cp fic1.txt monrep` déplace le fichier `fic1.txt` dans le répertoire `monrep`. 
+    * `touch fic1.txt` crée un fichier vide `fic1.txt` dans le répertoire courant.
+
+* `cp` (*copy*) copie des fichiers ou des répertoires. 
+
+    * `cp fic1.txt monrep/` copie le fichier `fic1.txt` dans le répertoire `monrep`. 
+    * `cp fic1.txt fic2.txt` duplique le fichier `fic1.txt` sous le nom `fic2.txt`.
+
+* `mv` (*move*) déplace ou renomme des fichiers ou des répertoires. 
+
+    * `mv fic1.txt monrep/` déplace le fichier `fic1.txt` dans le répertoire `monrep`.
+    * `mv fic1.txt fic2.txt` renomme le fichier `fic1.txt` en `fic2.txt`.
 
 * `rm` (*remove*) supprime des fichiers. `rm -r` supprime des répertoires.
+
+    * `rm fic1.txt` supprime le fichier `fic1.txt`.
+    * `rm -r monrep` supprime le répertoire `monrep` ainsi que tout son contenu.
 
 ### Caractère générique
 
 Le caractère générique `*` (*wildcard*) permet de remplacer une partie d'un nom de fichier ou de répertoire. On l'utilise pour appliquer une commande à plusieurs éléments.
+
+* `cp f*.txt monrep/` copie tous les répertoires dont le nom commence par un `f` et finit par `.txt` dans le répertoire `monrep`.
+* `rm *` supprime tous les fichiers du répertoire courant.
