@@ -26,6 +26,10 @@ Enseignants : Pascal Chemin, [Baptiste Pesquet](http://bpesquet.fr).
 * [Learn the command line](https://www.codecademy.com/learn/learn-the-command-line) (Codecademy)
 * [La ligne de commande sous Linux](lessons/ligne-commande-linux)
 
+### Sécurité
+
+* [Sécurité du poste de travail](lessons/securite-poste-de-travail)
+
 ## Activités
 
 * [Composants matériels de l'ordinateur](activities/composants-materiels)
