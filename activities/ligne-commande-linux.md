@@ -51,3 +51,54 @@ Pour chaque question, on suppose que le répertoire courant de départ est votre
     8. Renommer le fichier `style.css` en `monsite.css`.
     9. Supprimer *en une seule commande* les fichiers `index.html` et `index2.html` présents dans `monsite`.
     10. Supprimer *en une seule commande* le répertoire `monsite` et tout son contenu.
+
+### Exercice 3
+
+On suppose que le répertoire courant est votre répertoire personnel.
+
+En une seule commande et sans utiliser d'éditeur de texte, trouvez comment faire pour :
+
+* Créer un répertoire `exo3`
+* Vous y déplacer.
+* Créer un fichier vide `moi.txt` dans le répertoire courant.
+* Afficher le message "Je suis en BTS SIO".
+* Ecrire le message précédent dans le fichier `moi.txt`.
+* Ajouter au fichier `moi.txt` la ligne "Et j'aime ça !".
+
+En utilisant un éditeur de texte, créez le fichier `rois.txt` ayant le contenu suivant :
+
+~~~
+François Ier
+Henri IV
+Louis XIV
+~~~
+
+Créez aussi le fichier `rio.txt` ayant le contenu suivant :
+
+~~~
+Rio de Janeiro est la deuxième plus grande ville du Brésil.
+~~~
+
+En une seule commande, trouvez ensuite comment faire pour :
+
+* Dupliquer `rois.txt` sous le nom `roisFrance.txt`.
+* Déplacer tous les fichiers sauf `rio.txt` dans votre répertoire personnel.
+* Revenir dans votre répertoire personnel.
+* Supprimer les fichiers créés précédemment.
+* Supprimer le répertoire `exo3`.
+* Réinitialiser le contenu de la console.
+
+## Exercice 4
+
+Trouvez comment faire pour :
+
+* Créer le répertoire `bin` dans votre répertoire personnel.
+* Afficher la liste des variables d'environnement.
+* Afficher le nom de l'utilisateur courant.
+
+Modifiez votre environnement pour :
+
+* Ajouter le répertoire `bin` créé précédemment à la variable `PATH`.
+* Créer l'alias `la` qui lance la commande `ls -a`.
+
+Testez vos modifications.

@@ -14,18 +14,6 @@ Les fichiers et répertoires d'un ordinateur forment une arborescence appelée *
 
 ## Naviguer dans le système de fichiers
 
-### Commandes à connaître
-
-* `pwd` (*print working directory*) affiche le chemin du répertoire courant.
-
-* `ls` (*list*) affiche le contenu du répertoire courant.
-
-* `cd` (*change directory*) permet de se déplacer dans le système de fichiers en changeant de répertoire courant. 
-
-    * `cd monrep` fait du répertoire `monrep` le répertoire courant.
-    * `cd ..` permet de remonter d'un niveau dans l'arborescence.
-    * `cd /` permet de revenir à la racine de l'arborescence.
-
 ### Chemin absolu, chemin relatif
 
 L'emplacement de chaque ressource (fichier ou répertoire) dans le système de fichiers est appelé son **chemin**. Dans un chemin Linux, le séparateur dans entre deux répertoires est le caractère `/`.
@@ -38,7 +26,7 @@ On distingue deux types de chemins :
 
 * Un chemin **relatif** identifie une ressource à partir du répertoire courant. Il dépend donc du répertoire courant et n'est pas valide partout.
 
-    * `../marc/adresses.txt` et `documents/cours/si1.pdf` sont des exemples de chemins relatifs.
+    * `../marc/adresses.txt` et `documents/cours/si1.pdf` (sans `/` au début !) sont des exemples de chemins relatifs.
 
 ### Répertoire personnel
 
@@ -46,7 +34,18 @@ Sous Linux, chaque utilisateur (sauf `root`) dispose d'un répertoire personnel 
 
 Le chemin absolu du répertoire personnel peut s'écrire de manière abrégée avec le caractère `~` (*tilde*). Par exemple, le chemin `~/music/` pour l'utilisateur `nicolas` correspond au chemin absolu `/home/nicolas/music/`.
 
-Pour revenir dans le répertoire personnel, on peut taper la commande `cd` sans rien d'autre.
+### Commandes à connaître
+
+* `pwd` (*print working directory*) affiche le chemin du répertoire courant.
+
+* `ls` (*list*) affiche le contenu du répertoire courant.
+
+* `cd` (*change directory*) permet de se déplacer dans le système de fichiers en changeant de répertoire courant. 
+
+    * `cd monrep` fait du répertoire `monrep` le répertoire courant.
+    * `cd ..` permet de remonter d'un niveau dans l'arborescence.
+    * `cd /` permet de revenir à la racine de l'arborescence.
+    * `cd` permet de revenir à la racine du répertoire personnel.
 
 ### Options des commandes
 
@@ -62,11 +61,11 @@ Les options d'une commande peuvent être combinés. Exemple : `ls -alt`.
 
 ### Commandes à connaître
 
-* `mkdir` (*make directory*) crée un nouveau répertoire dans le répertoire courant. 
+* `mkdir` (*make directory*) crée un nouveau répertoire.
 
     * `mkdir monrep` crée le répertoire `monrep` dans le répertoire courant.
 
-* `touch` crée un nouveau fichier (vide) dans le répertoire courant. 
+* `touch` crée un nouveau fichier (vide) ou met à jour la date de modification d'un fichier existant. 
 
     * `touch fic1.txt` crée un fichier vide `fic1.txt` dans le répertoire courant.
 
@@ -89,5 +88,71 @@ Les options d'une commande peuvent être combinés. Exemple : `ls -alt`.
 
 Le caractère générique `*` (*wildcard*) permet de remplacer une partie d'un nom de fichier ou de répertoire. On l'utilise pour appliquer une commande à plusieurs éléments.
 
-* `cp f*.txt monrep/` copie tous les répertoires dont le nom commence par un `f` et finit par `.txt` dans le répertoire `monrep`.
+* `cp f*.txt monrep/` copie dans le répertoire `monrep` tous les répertoires dont le nom commence par un `f` et finit par `.txt`.
 * `rm *` supprime tous les fichiers du répertoire courant.
+
+## Affichage et édition de fichiers
+
+### Commandes à connaître
+
+* `echo` affiche un texte.
+
+    * `echo "Bonjour Monde"` affiche le texte "Bonjour Monde".
+
+* `cat` affiche le contenu d'un fichier.
+
+    * `cat monfic` affiche le contenu du fichier `monfic`.
+
+* `nano` lance un éditeur de texte nommé **Nano**. Il dispose de plusieurs raccourcis clavier, dont :
+
+    * `Ctrl+O` pour sauvegarder un fichier.
+    * `Ctrl+X` pour quitter l'éditeur.
+
+* `clear` réinitialise le contenu de la console.
+
+### Redirections
+
+Le caractère `>` permet de rediriger la sortie d'une commande vers un fichier **en écrasant son contenu actuel**. 
+
+Le caractère `>>` redirige la sortie d'une commande vers un fichier **en l'ajoutant à la fin de son contenu actuel**.
+
+* `echo "Bonjour Monde" > bonjour.txt` remplace le contenu du fichier `bonjour.txt` par le texte "Bonjour Monde".
+* `echo "Bonjour Monde" >> bonjour.txt` ajoute le texte "Bonjour Monde" à la fin du fichier `bonjour.txt`.
+
+## Environnement
+
+### Paramétrage
+
+L'apparence et les fonctionnalités de la ligne de commande Linux sont paramétrables. Les paramètres d'environnement de l'utilisateur sont regroupés dans le fichier `.bash_profile`, situé à la racine de son répertoire personnel.
+
+### Variables d'environnement
+
+Il est possible de définir des **variables d'environnement** pour stocker des informations globales ou modifier certains paramètres. Ces variables sont accessibles par tous les programmes.
+
+Voici quelques-unes des variables d'environnement prédéfinies : 
+
+* `USER` contient le nom de l'utilisateur courant.
+* `HOME` contient le chemin du répertoire personnel de l'utilisateur courant.
+* `PATH` contient une liste de chemins séparés par le caractère `:` et est utilisée pour trouver les commandes exécutables du système.
+
+### Alias
+
+Un alias permet de créer une nouvelle commande. On les utilise pour taper plus rapidement les commandes souvent utilisées, comme par exemple `ls -al`.
+
+### Commandes à connaître
+
+* `export` crée ou modifie la valeur d'une variable d'environnement.
+
+    * `export MSG="Bienvenue"` crée une variable `MSG` ayant pour valeur "Bienvenue".
+
+* `echo` peut afficher le contenu d'une variable d'environnement.
+
+    * `echo $MSG` affiche le contenu de la variable `MSG`. Attention, le `$` est indispensable !
+
+* `env` affiche la liste des variables d'environnement.
+
+* `alias` définit un nouvel alias.
+
+    * `alias ll="ls -l"` définit l'alias `ll` qui lancera la commande `ls -l`.
+
+* `source ~/.bash_profile` permet d'activer les paramètres contenus dans le fichier `.bash_profile`.
