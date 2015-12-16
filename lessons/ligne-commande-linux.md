@@ -97,9 +97,9 @@ Le caractère générique `*` (*wildcard*) permet de remplacer une partie d'un n
 
 * `echo` affiche un texte.
 
-    * `echo "Bonjour Monde"` affiche le texte "Bonjour Monde".
+    * `echo Bonjour Monde` affiche le texte "Bonjour Monde".
 
-* `cat` affiche le contenu d'un fichier.
+* `cat` permet (entre autres) d'afficher le contenu d'un fichier.
 
     * `cat monfic` affiche le contenu du fichier `monfic`.
 
@@ -116,8 +116,8 @@ Le caractère `>` permet de rediriger la sortie d'une commande vers un fichier *
 
 Le caractère `>>` redirige la sortie d'une commande vers un fichier **en l'ajoutant à la fin de son contenu actuel**.
 
-* `echo "Bonjour Monde" > bonjour.txt` remplace le contenu du fichier `bonjour.txt` par le texte "Bonjour Monde".
-* `echo "Bonjour Monde" >> bonjour.txt` ajoute le texte "Bonjour Monde" à la fin du fichier `bonjour.txt`.
+* `echo Bonjour Monde > bonjour.txt` remplace le contenu du fichier `bonjour.txt` par le texte "Bonjour Monde".
+* `echo Bonjour Monde >> bonjour.txt` ajoute le texte "Bonjour Monde" à la fin du fichier `bonjour.txt`.
 
 ## Environnement
 

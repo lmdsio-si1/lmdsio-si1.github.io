@@ -25,6 +25,7 @@ Enseignants : Pascal Chemin, [Baptiste Pesquet](http://bpesquet.fr).
 * [Introduction à Linux](lessons/linux)
 * [Learn the command line](https://www.codecademy.com/learn/learn-the-command-line) (Codecademy)
 * [La ligne de commande sous Linux](lessons/ligne-commande-linux)
+* [La ligne de commande sous Windows](lessons/ligne-commande-windows)
 
 ### Sécurité
 
@@ -36,4 +37,5 @@ Enseignants : Pascal Chemin, [Baptiste Pesquet](http://bpesquet.fr).
 * [Consignes pour l'exposé](activities/consignes-expose)
 * [Les logiciels libres](activities/logiciels-libres)
 * [La ligne de commande sous Linux](activities/ligne-commande-linux)
+* [La ligne de commande sous Windows](activities/ligne-commande-windows)
 * [Sauvegarde et restauration sous Windows 7](activities/sauvegarde-restauration-w7)
