@@ -7,7 +7,7 @@ title: La ligne de commande sous Windows
 
 Construisez avec les commandes Windows l'arborescence ci-contre dans un répertoire `ligne-commande` créé au préalable dans votre répertoire personnel.
 
-* Le fichier `fichier11.txt doit contenir la ligne "MS-DOS".
+* Le fichier `fichier11.txt` doit contenir la ligne "MS-DOS".
 * Le fichier `fichier12.txt` doit contenir la ligne "Windows".
 * Le fichier `fichier22.txt` doit contenir la ligne "Linux".
 
